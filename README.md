@@ -2,6 +2,14 @@
 
 Simple poetry plugin to show the available extras (optional dependencies) of a particular python package.
 
+## Installation
+
+```bash
+$ poetry self add git+https://github.com/DeviousStoat/watsin
+```
+
+## Usages
+
 ```bash
 $ poetry watsin --help
 
