@@ -14,7 +14,7 @@ $ poetry self add git+https://github.com/DeviousStoat/watsin
 $ poetry watsin --help
 
  Description:
-  Shows the available `extras` in a particular poetry package
+  Shows the available `extras` (optional dependencies) in a particular python package
 
 Usage:
   watsin [options] [--] <package_name> [<package_version>]

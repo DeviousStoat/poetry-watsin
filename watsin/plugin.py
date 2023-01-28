@@ -11,7 +11,7 @@ from poetry.repositories.exceptions import PackageNotFound
 class Main(Command):
     name = "watsin"
 
-    description = "Shows the available `extras` in a particular poetry package"
+    description = "Shows the available `extras` (optional dependencies) in a particular python package"
 
     arguments = [
         argument(name="package_name", description="The name of the package"),
