@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "watsin"
+name = "poetry_watsin"
 version = "0.1.0"
 description = ""
 authors = ["DeviousStoat <devious@stoat.com>"]
@@ -10,7 +10,7 @@ python = "^3.10"
 poetry = "^1.2"
 
 [tool.poetry.plugins."poetry.application.plugin"]
-watsin-plugin = "watsin.plugin:Watsin"
+watsin-plugin = "poetry_watsin.plugin:Watsin"
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
