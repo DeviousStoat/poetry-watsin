@@ -7,7 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+poetry = "^1.2"
 
+[tool.poetry.plugins."poetry.application.plugin"]
+watsin-plugin = "watsin.plugin:Watsin"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
 
 [build-system]
 requires = ["poetry-core"]
